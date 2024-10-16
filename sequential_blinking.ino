@@ -12,15 +12,15 @@ void setup() {
 }
 void loop() {
   digitalWrite(LED1, HIGH);    // turn on LED1 
-  delay(100);                  // wait for 200ms
+  delay(200);                  // wait for 200ms
   digitalWrite(LED2, HIGH);    // turn on LED2
-  delay(100);                  // wait for 200ms       
+  delay(200);                  // wait for 200ms       
   digitalWrite(LED3, HIGH);    // turn on LED3 
-  delay(100);                  // wait for 200ms
+  delay(200);                  // wait for 200ms
   digitalWrite(LED1, LOW);     // turn off LED1
-  delay(100);                  // wait for 300ms
+  delay(200);                  // wait for 300ms
   digitalWrite(LED2, LOW);     // turn off LED2
-  delay(100);                  // wait for 300ms
+  delay(200);                  // wait for 300ms
   digitalWrite(LED3, LOW);     // turn off LED3
-  delay(100);                  // wait for 300ms before running program all over again
+  delay(200);                  // wait for 300ms before running program all over again
 }
